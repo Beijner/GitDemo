@@ -12,6 +12,8 @@ namespace GitDemo
         {
             Console.WriteLine("Hello world!");
             NewMethod("A New World!");
+
+            NewMethod("This is an additional test");
         }
 
         private static void NewMethod(string word)
