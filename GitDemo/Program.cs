@@ -17,6 +17,8 @@ namespace GitDemo
 
 
             NewMethod($"{AnAdd(12, 6)}");
+
+            NewMethod($"{AnAdd(1, 6)} is not {AnAdd(12, 6)}...");
         }
 
         private static void NewMethod(string word)
