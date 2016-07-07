@@ -11,8 +11,12 @@ namespace GitDemo
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world!");
+            NewMethod("A New World!");
+        }
 
-            Console.WriteLine("A New World!");
+        private static void NewMethod(string word)
+        {
+            Console.WriteLine(word);
         }
     }
 }
