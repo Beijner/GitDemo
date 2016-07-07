@@ -14,11 +14,16 @@ namespace GitDemo
             NewMethod("A New World!");
 
             NewMethod("This is an additional test");
+
+
+            NewMethod($"{AnAdd(12, 6)}");
         }
 
         private static void NewMethod(string word)
         {
             Console.WriteLine(word);
         }
+
+        private static int AnAdd(int a, int b) { return a + b; }
     }
 }
